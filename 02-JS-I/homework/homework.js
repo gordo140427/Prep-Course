@@ -169,7 +169,7 @@ function esPositivo(numero) {
       alert("esPositivo");
     else
       alert("es negativo");
-    if else (0)
+    if (0)
       return false;
   }
 }
