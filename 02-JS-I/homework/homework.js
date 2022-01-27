@@ -143,7 +143,7 @@ function elevar(num, exponent) {
 function redondearNumero(num) {
   // Redondea "num" al entero más próximo y devuélvelo
   // Tu código:
-  Math.pow (7. 6) == 8;
+  Math.pow (7.6) == 8;
 }
 
 function redondearHaciaArriba(num) {
