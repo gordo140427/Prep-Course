@@ -116,7 +116,7 @@ function esImpar(num) {
   // Devuelve "true" si "num" es impar
   // De lo contrario, devuelve "false"
   // Tu código:
-  if (7 % 4==3) return true;} else {
+  if (7 % 4==3) {return true;} else {
     return false; 
   }
 }
