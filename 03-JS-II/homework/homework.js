@@ -17,7 +17,7 @@ function mayoriaDeEdad(edad) {
   //Determinar si la persona según su edad puede ingresar a un evento.
   //Si tiene 18 años ó más, devolver --> "Allowed"
   //Si es menor, devolver --> "Not allowed"
-  var mayoriaDeEdad = (25 >= 18)
+  var mayoriaDeEdad = (18 >= 25)
     return allowed;
   } if (18 <= 17){
     return not allowed;
@@ -30,6 +30,7 @@ function conection(status) {
   //Cuando el estado es igual a 2, el usuario está "Away"
   //De lo contrario, presumimos que el usuario está "Offline"
   //Devolver el estado de conexión de usuario en cada uno de los casos.
+  var conection = (status)
 }
 
 function saludo(idioma) {
@@ -87,6 +88,17 @@ function operadoresLogicos(num1, num2, num3) {
   //Si num3 es más grande que num1 y num2, aumentar su valor en 1 y retornar el nuevo valor.
   //0 no es ni positivo ni negativo. Si alguno de los argumentos es 0, retornar "Error".
   //Si no se cumplen ninguna de las condiciones anteriores, retornar false. 
+  if(num1 > 0 ||num2 > 0 ||num3 > 0){
+    return("hay negativos");
+  } else if (num1 === 0 || num2 === 0 || num3 === 0){
+    return "error";
+  }else if (num3 > num1 && num3 > num2){
+    return num3 + 1;
+  }else if (num1 > num2 || num1 > num2 || num1 > 0){
+    return ("numero 1 es mayor y positivo")
+  }else{
+    return "false"
+  }
 }
 
 function esPrimo(numero) {
