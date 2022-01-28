@@ -19,10 +19,9 @@ function mayoriaDeEdad(edad) {
   //Si es menor, devolver --> "Not allowed"
   var mayoriaDeEdad = (18 >= 25)
     return allowed;
-  } if (18 <= 17){
+    if (18 <= 17){
     return not allowed;
   }
-}
   
 function conection(status) {
   //Recibimos un estado de conexión de un usuario representado por un valor numérico. 
