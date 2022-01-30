@@ -55,12 +55,12 @@ function saludo(idioma) {
    else {
     if (idioma === mandarin)
       return "ni hao";
-  }else {
-    if (idioma === ingles)
-      return "hello";
-  }else {
-    if (idioma === undefined)
-      return "hola!"
+    else {
+     if (idioma === ingles)
+       return "hello";
+     else {
+      if (idioma === undefined)
+        return "hola!"
   }
 }
 
