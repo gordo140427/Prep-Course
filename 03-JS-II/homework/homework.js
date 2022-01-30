@@ -29,7 +29,17 @@ function conection(status) {
   //Cuando el estado es igual a 2, el usuario está "Away"
   //De lo contrario, presumimos que el usuario está "Offline"
   //Devolver el estado de conexión de usuario en cada uno de los casos.
-  var conection = (status)
+  var conection = (status){
+    if (1 == online)
+      return "online";
+  }else {
+    if (2 == away){
+      return "away";
+    }else{
+      if (!status)
+        return "offline"
+    }
+  }
 }
 
 function saludo(idioma) {
