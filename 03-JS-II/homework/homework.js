@@ -55,7 +55,7 @@ function saludo(idioma) {
   }else {
     if (idioma === mandarin)
       return "ni hao";
-  }else{
+  }else {
     if (idioma === ingles)
       return "hello";
   }else {
