@@ -18,9 +18,9 @@ function mayoriaDeEdad(edad) {
   //Si tiene 18 años ó más, devolver --> "Allowed"
   //Si es menor, devolver --> "Not allowed"
   var mayoriaDeEdad = (18 >= 25)
-    return allowed;
+    return "allowed";
     if (18 <= 17){
-    return not allowed;
+    return "not allowed";
   }
   
 function conection(status) {
