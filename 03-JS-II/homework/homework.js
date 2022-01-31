@@ -50,15 +50,15 @@ function saludo(idioma) {
   // Si "idioma" no es ninguno de los anteiores o es `undefined` devuelve "Hola!"
   // Tu código:
   var saludo = (idioma)
-  if (idioma === aleman)
+  if (idioma === aleman){
     return "gutenb tag";
-   else {
-    if (idioma === mandarin)
+   }else {
+    if (idioma === mandarin){
       return "ni hao";
-    else {
-     if (idioma === ingles)
+    }else {
+     if (idioma === ingles){
        return "hello";
-     else {
+     }else {
       if (idioma === undefined)
         return "hola!"
   }
@@ -89,6 +89,11 @@ function estaEnRango(numero) {
   // Devuelve "true" si "numero" es menor que 50 y mayor que 20
   // De lo contrario, devuelve "false"
   // Tu código:
+  if ( numero <= 50 && nemero >= 20){
+    return "true";
+  } else {
+    return "false";
+  }
 }
 
 function esEntero(numero) {
